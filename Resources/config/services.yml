@@ -1,0 +1,31 @@
+parameters:
+#    alt_stu_viz.example.class: AltSTU\VizBundle\Example
+#    alt_stu.twig.altstu_extension: AltSTU\VizBundle\Twig\AltSTUExtension
+#    alt_stu.viz_service.class: AltSTU\VizBundle\Services\VizService
+    type:
+    d:
+    w: 111
+    h: 111
+    tx:
+    ty:
+    f:
+    cc: 
+    pdff: dt
+    
+#    alt_stu.viz_pdf_service.class: AltSTU\VizBundle\Services\VizPdfService
+    
+    alt_stu.controller.viz.class: AltSTU\VizBundle\Controller\VizController
+
+services:
+#    alt_stu_viz.example:
+#        class: %alt_stu_viz.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+    alt_stu.viz.controller:
+        class: %alt_stu.controller.viz.class%
+        arguments: ["@templating",%type%,%d%,%w%,%h%,%tx%,%ty%,%f%,%cc%,%pdff%]
+#    alt_stu.viz_service:
+#        class: %alt_stu.viz_service.class%
+#        arguments: [%d%,%w%,%h%,%tx%,%ty%,%f%]
+#    alt_stu.viz_pdf_service:
+#        class: %alt_stu.viz_pdf_service.class%
+#        arguments: [%d%,%w%,%h%,%tx%,%ty%,%f%,%cc%,@alt_stu.viz_service]

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <table border="1" cellspacing="3" cellpadding="1">
+        {%if tx != null or ty != null %}
+            <tr>
+                <th>{{tx}}</th><th>{{ty}}</th>
+            </tr>
+        {%endif%}
+            
+        {%for key,item in data%}
+        <tr>
+            <td>{{ key }}</td>
+            <td>{{ item }}</td>
+        </tr>
+        {%endfor%}
+    </table>
+</html>
