@@ -2,16 +2,19 @@
     "name": "lizardy/vizbundle",
     "minimum-stability": "dev",
     "description": "Asset Management for PHP",
-    "keywords": [ "assets", "compression", "minification" ],
-    "homepage": "https://github.com/kriswallsmith/assetic",
+    "keywords": [ "vizualization", "charts", "pdf" ],
+    "homepage": "https://github.com/Lizardy/VizBundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Kris Wallsmith",
-            "email": "kris.wallsmith@gmail.com",
-            "homepage": "http://kriswallsmith.net/"
-        }
+            "name": "Yelizaveta Turubarova",
+            "email": "glizard.lucky@gmail.com"
+        },
+		{
+			"name": "Varvara Krayvanova as research supervisor"
+		}
+		
     ],
     "require": {
         "php": ">=5.3.1",
