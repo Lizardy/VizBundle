@@ -1,8 +1,8 @@
 {
     "name": "lizardy/vizbundle",
     "minimum-stability": "dev",
-    "description": "Asset Management for PHP",
-    "keywords": [ "vizualization", "charts", "pdf" ],
+    "description": "Bundle for data visualization for Symfony 2",
+    "keywords": [ "visualization", "charts", "pdf" ],
     "homepage": "https://github.com/Lizardy/VizBundle",
     "type": "symfony-bundle",
     "license": "MIT",
